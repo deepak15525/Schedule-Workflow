@@ -1,4 +1,4 @@
-name: Schedule Cron jobs:
+name: Schedule Cron jobs
 
 on:
   schedule:
@@ -10,4 +10,4 @@ jobs:
     
     steps:
       - name: Schedule a cron
-        run: echo cron schedules
+        run: "echo cron schedules"
