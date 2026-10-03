@@ -1,0 +1,13 @@
+name: Schedule jobs
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  runs-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Cron Job Schedule
+        run: echo "Cron Job Schedule"
